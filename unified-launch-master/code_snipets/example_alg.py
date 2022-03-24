@@ -22,4 +22,5 @@ def main():
         sleep(0.01)
 
 
-main()
+if __name__ == "__main__":
+    main()
