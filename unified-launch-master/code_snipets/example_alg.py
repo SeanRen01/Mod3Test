@@ -21,6 +21,6 @@ def main():
         i = i + 1
         sleep(0.01)
 
-
-if __name__ == "__main__":
-    main()
+main()
+#if __name__ == "__main__":
+#    main()
