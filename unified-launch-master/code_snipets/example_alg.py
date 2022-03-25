@@ -32,6 +32,6 @@ right_side_speed = 7
 while i <3000:
     rover.send_command(left_side_speed, right_side_speed)
         i = i + 1
-        sleep(1)
+        sleep(0.1)
     
 j = 0
