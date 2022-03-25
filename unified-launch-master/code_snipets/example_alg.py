@@ -35,3 +35,5 @@ while i <3000:
         sleep(0.005)
     
 j = 0
+left_side_speed = 0
+right_side_speed = 0
