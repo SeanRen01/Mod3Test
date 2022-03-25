@@ -29,13 +29,13 @@ rover = Rover()
 i = 0
 left_side_speed = 7
 right_side_speed = 7
-while i < 30:
+while i < 3:
         rover.send_command(left_side_speed, right_side_speed)
         i = i + 1
-        sleep(0.01)
+     
 left_side_speed = -7
 right_side_speed = -7
-while i < 30:
+while i < 3:
         rover.send_command(left_side_speed, right_side_speed)
         i = i + 1  
     
